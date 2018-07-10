@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Satellite database</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+Background-color:grey;
+}
+
+/* Style the top navigation bar */
+.topnav {
+	margin-left:8px;
+	margin-right:18px;
+	margin-top:8px; 
+	overflow: hidden;
+	padding: 20px 20px;
+	background-color: #333;
+	position: -webkit-sticky;
+	top: 0;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+/* Change color on hover */
+.topnav a:hover {
+
+    background-color: #ddd;
+    color: black;
+}
+
+.video-section{
+position: relative;
+width: 99%;
+height=100%;
+overflow:hidden;
+margin:10px;
+}
+#video-elem{
+width: 99%;
+}
+.video-overlay{
+position: absolute;
+top: 0;
+right:0;
+bottom: 0;
+left:0;
+opacity: 0;
+transition: opacity 0.5s ease;
+margin:10px;
+}
+.video-overlay:hover{
+opacity: 1;
+}
+
+.video-overlay h1{
+position: absolute;
+left: 35%;
+top: 38%;
+tansform: translateX(-50%) translateY(-50%);
+font-size: 2em;
+color: white;
+text-align:left;
+}
+
+/* Style the footer */
+.footer {
+	background-color:#333;
+	color:white;
+	text-align:center;
+	margin-left:1px;
+	margin-right:13px;
+	margin-top:8px;
+	overflow: hidden;
+	padding:12px 12px;
+	position: -webkit-sticky;
+	top: 0;
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="file:///Users/satyakompella/Desktop/about.html">ABOUT</a>
+  <a href="file:///Users/satyakompella/Desktop/database.html">DATABASE</a>
+</div>
+
+<div class="video-section">
+<video id="video-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
+<source src="video.mp4" type="video/mp4">
+</video>
+<div class="video-overlay">
+<h1 text-align:>SATELLITE DATABASE SYSTEM</h1>
+</div>
+
+<div class="footer">
+  <h3>COPYRIGHTS@Batch 13</h3>
+</div>
+
+</body>
+</html>
+
